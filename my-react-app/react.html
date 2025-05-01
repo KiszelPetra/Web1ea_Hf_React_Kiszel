@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+  </head>
+  <body>
+    <header>
+      <h1>Web-programozás-1 Előadás Házi feladat</h1>
+    </header>
+    <main>
+      <aside>
+          <p>React két mini alkalmazás</p>
+      </aside>
+      <div id="content">
+          <h2>Válassz egy alkalmazást</h2>
+          <button onclick="loadApp('components/Counter.jsx')">Számláló</button>
+          <button onclick="loadApp('components/KPO.jsx')">Kő-Papír-Olló</button>
+          <div id="root"></div>
+      </div>
+  </main>
+
+    <div id="root"></div>
+    <footer>
+      <p>Kiszel Petra D9HRCQ</p>
+    </footer>
+     
+    <script type="module" src="/src/components/Counter.jsx"></script>
+    <script type="module" src="/src/components/KPO.jsx"></script>
+  </body>
+</html>
